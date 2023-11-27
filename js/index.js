@@ -6,6 +6,7 @@ function nameClick(){
     alert('なまえを入力してね！');
   }
   else {
-    sessionStrage.setItem('name', inputName);
+    sessionStorage.setItem('name', inputName);
+    window.location.href = './message.html';
   }
 }
