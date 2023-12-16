@@ -28,6 +28,20 @@ html, body{
   color: #fff;
 }
 
+#dear{
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+#main{
+  margin-bottom: 25px;
+  font-size: 18px;
+}
+
+#merry{
+  font-size: 30px;
+}
+
 /* 文字がキラキラ */
 .glowAnime span{opacity: 0;}
 
@@ -35,7 +49,7 @@ html, body{
 .glowAnime.glow span{ animation:glow_anime_on 1s ease-out forwards; }
 
 @keyframes glow_anime_on{
-	0% { opacity:0; text-shadow: 0 0 0 #fff,0 0 0 #fff;}
-	50% { opacity:1;text-shadow: 0 0 10px #fff,0 0 15px #fff; }
-	100% { opacity:1; text-shadow: 0 0 0 #fff,0 0 0 #fff;}
+	0% { opacity:0; text-shadow: 0 0 0 #FFD93D,0 0 0 #FFD93D;}
+	50% { opacity:1;text-shadow: 0 0 10px #FFD93D,0 0 15px #FFD93D; }
+	100% { opacity:1; text-shadow: 0 0 0 #FFD93D,0 0 0 #FFD93D;}
 }

@@ -1,34 +1,34 @@
 //なまえを受け取る
 let name = sessionStorage.getItem('name');
-if (name == 'やまぐちひかり') {
+if (name == 'サーフィン') {
   document.getElementById('name').textContent = 'Magu';
 }
-else if(name == 'つつみなるみ'){
+else if(name == 'キラキラ'){
   document.getElementById('name').textContent = 'Narumi';
 }
-else if(name == 'ふじもりゆいり'){
+else if(name == 'あかふく'){
   document.getElementById('name').textContent = 'Yuiri';
 }
-else if(name == 'やなせきの'){
+else if(name == 'えいがかん'){
   document.getElementById('name').textContent = 'Kino';
 }
-else if(name == 'かやまゆきの'){
+else if(name == 'パパド'){
   document.getElementById('name').textContent = 'Yukino';
 }
-else if(name == 'もとだまな'){
+else if(name == 'ミラノ'){
   document.getElementById('name').textContent = 'Mana';
 }
-else if(name == 'よしいけなお'){
+else if(name == 'パエリア'){
+  document.getElementById('name').textContent = 'Yumi';
+}
+else if(name == 'リバティ'){
   document.getElementById('name').textContent = 'Nao';
 }
-else if(name == 'とやまふみか'){
+else if(name == 'ハロッズ'){
   document.getElementById('name').textContent = 'Fumika';
 }
-else if(name == 'ふじきまい'){
+else if(name == 'パノラマ'){
   document.getElementById('name').textContent = 'Mai';
-}
-else if(name == 'なかざわみく'){
-  document.getElementById('name').textContent = 'Mikuu';
 }
 else if(name == 'やまだひかり'){
   document.getElementById('name').textContent = 'Hikari';
@@ -38,6 +38,9 @@ else if(name == 'そねはらのぼる'){
 }
 else if(name == 'すずきたかひさ'){
   document.getElementById('name').textContent = '鈴木せんせい';
+}
+else if(name == 'a'){
+  document.getElementById('name').textContent = 'test';
 }
 else{
   window.location.href = './index.html';
