@@ -2,7 +2,9 @@
 let name = sessionStorage.getItem('name');
 if (name == 'サーフィン') {
   document.getElementById('name').textContent = 'Magu';
-  document.getElementById('main').textContent = '2023年は大学を卒業して社会人になるっていう、私たちにとって、かなりBigなYearだったね〜。まぐにも会える機会減っちゃうかなぁ、悲しいなぁ、と思っていたけれど、なんだかんだ毎月会えただけじゃなく、学生時代はレアだった「まぐと遊ぶ日」が増えた！！そしてやっぱり津田津田しい私たちはラジオまで始めちゃって、ラジオのためではあるけど、２週間に1回くらい、定期的にまぐとお喋りできる時間があることがとても幸せです☺️　いやはや、私は社会人になってからね、まぐになりたいな〜って思うことが増えたよ。「えなんでなんで意味わかんないw」って言ってるまぐが今頭をよぎったけど、ほんとだからね？笑　私長女だけど、たいちゃんみたいにマネジメント力ないから大変！毎月「計画性を持ちましょう」って上司にフィードバック書かれてるんだから！学生時代、私の気付いてた範囲以上にきっとまぐは色んな所で支えてくれてたんだと、"親離れ"ならぬ"まぐ離れ"をして日々感じてます…まぐ離れ出来てるのかは不明だけど。今年も私と沢山の時間を過ごしてくれてありがとう。来年も社会の荒波に負けず、沢山楽しい思い出作ろうね！';
+  document.getElementById('main1').textContent = '2023年は大学を卒業して社会人になるっていう、私たちにとって、かなりBigなYearだったね〜。まぐにも会える機会減っちゃうかなぁ、悲しいなぁ、と思っていたけれど、なんだかんだ毎月会えただけじゃなく、学生時代はレアだった「まぐと遊ぶ日」が増えた！！そしてやっぱり津田津田しい私たちはラジオまで始めちゃって、ラジオのためではあるけど、２週間に1回くらい、定期的にまぐとお喋りできる時間があることがとても幸せです☺️';
+  document.getElementById('main2').textContent = 'いやはや、私は社会人になってからね、まぐになりたいな〜って思うことが増えたよ。「えなんでなんで意味わかんないw」って言ってるまぐが今頭をよぎったけど、ほんとだからね？笑　私長女だけど、たいちゃんみたいにマネジメント力ないから大変！毎月「計画性を持ちましょう」って上司にフィードバック書かれてるんだから！';
+  document.getElementById('main3').textContent = '学生時代、私の気付いてた範囲以上にきっとまぐは色んな所で支えてくれてたんだと、"親離れ"ならぬ"まぐ離れ"をして日々感じてます…まぐ離れ出来てるのかは不明だけど。今年も私と沢山の時間を過ごしてくれてありがとう。来年も社会の荒波に負けず、沢山楽しい思い出作ろうね！';
 }
 else if(name == 'キラキラ'){
   document.getElementById('name').textContent = 'Narumi';
@@ -40,9 +42,11 @@ else if(name == 'パノラマ'){
   document.getElementById('name').textContent = 'Mai';
   document.getElementById('main').textContent = ''
 }
-else if(name == 'やまだひかり'){
+else if(name == '1103'){
   document.getElementById('name').textContent = 'Hikari';
-  document.getElementById('main').textContent = ''
+  document.getElementById('main1').textContent = '年賀状代わりのクリスマスカードだよ！今年はSEらしくサイトを作ってみたのだ〜！今思えば、ひかりさんにあまり自分が作ったもの見せたことない気がしたし、いい機会と思った先輩の意地！笑　これもフロントはHTML／CSS、バックはJavaScriptで書いてるよ。先人たちの力が大きいけれど！（例のおさんぽアプリ(?)はその後どう？また話聞かせてね！）'
+  document.getElementById('main2').textContent = '山田ひかりが3年生になるなんて、おばさん信じられないよ。進路選択、卒論とまだまだ大学生活のお楽しみは沢山あるので大いに謳歌して、たまには私にもその頑張りを聞かせてください☺️ '
+  document.getElementById('main3').textContent = 'あ、あと最近インスタにあがる写真のクオリティが爆上がりしてない？iPhone15？腕の上達？笑　ウィキッドも見にいこうね〜！良いお年を！'
 }
 else if(name == 'そねはらのぼる'){
   document.getElementById('name').textContent = 'そねっち';
