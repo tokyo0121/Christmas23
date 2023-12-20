@@ -3,7 +3,7 @@ function nameClick(){
   console.log(inputName); //後で消す
   //ローカルステージに値を持たせる
   if (!(inputName)) {
-    alert('なまえを入力してね！');
+    alert('Please input your password！');
   }
   else {
     sessionStorage.setItem('name', inputName);

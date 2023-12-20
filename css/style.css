@@ -3,6 +3,10 @@ html, body{
   width: 100%;
 }
 
+*{
+  font-family: "游明朝 Medium";
+}
+
 #particles-js{
 	position:fixed;/*描画固定*/
 	z-index:-1;/*描画を一番下に*/
@@ -15,15 +19,18 @@ html, body{
 #wrapper-star{
 	position: relative;/*描画を#particles-jsよりも上にするためposition:relative;を指定*/
 	z-index: 1;/*z-indexの数字を大きくすることで描画を#particles-jsよりも上に*/
-	width:80%;
-	height: 80%;
+	width:100%;
+	height: 100%;
   margin: 0;
-  padding: 10%;
+}
+
+#wrapper{
+  padding: 20% 0;
 }
 
 #container{
-  padding: 3%;
-  background-color: rgba(2,14,52,0.8);
+  padding: 15%;
+  background-color: rgba(2,14,52,0.3);
   color: #fff;
 }
 
@@ -76,4 +83,24 @@ html, body{
 
 .blurTrigger{
     opacity: 0;
+}
+
+.login{
+  width: 60%;
+  position: absolute;
+  margin: 30% 20%;
+}
+
+#name{
+  width: 97%;
+  height: 30px;
+  text-align: center;
+}
+
+#hiraku{
+  width: 100%;
+  height: 30px;
+  margin-top: 5%;
+  background: linear-gradient(45deg, #c0b283 0%, #c0b283 45%, #FEE9A0 70%, #c0b283 85%, #c0b283 90% 100%);
+  animation: gradient 5s infinite cubic-bezier(.62, .28, .23, .99) both;
 }

@@ -8,19 +8,27 @@ if (name == 'サーフィン') {
 }
 else if(name == 'キラキラ'){
   document.getElementById('name').textContent = 'Narumi';
-  document.getElementById('main').textContent = ''
+  document.getElementById('main1').textContent = '社会人になったら、なるみちゃんはきっと沢山残業するだろうし、週末はきっとお疲れだろうし、家族にもちゃんと連絡とって、ご飯もゼリーに頼らずちゃんと食べてるかしら、ってみんなで心配してた卒業前。定期的に会ってくれるくらいに、なるみちゃんが元気そうで、いつも元気ななるみちゃんを見てホッと安心しているよ！そしてそれ以上に元気ももらってます！本当になるみちゃんと話してるとね、文字通り元気が出るのよ。いつも何か新しいエピソードがあるし、それをとっても楽しそうに話すなるみちゃんが可愛くて！(まなみちゃんに怒られそう笑)';
+  document.getElementById('main2').textContent = 'あしげく大学に通ってた時期も懐かしい☺️ そろそろね、いげなるでまた何かしたいよね〜！分析コンペでも、ビジコンでも、はたまた何か学校に持ち込み企画とか？大学でなるみちゃんと共有する時間が長かった分、社会人になって一番寂しさを感じる部分はそこなのかなと思っています。毎日大変だけど、「何か」してたいじゃん？次の日絶対後悔するけど、夜中まで作業してたのもいい思い出だよね😆 ';
+  document.getElementById('main3').textContent = 'なるちゃん、忙しい合間を縫って、今年も沢山の時間を一緒に過ごしてくれてありがとう。来年のビッグイベントはパリだね！来年も一緒に沢山楽しい思い出作ろうね！';
 }
 else if(name == 'あかふく'){
   document.getElementById('name').textContent = 'Yuiri';
-  document.getElementById('main').textContent = ''
+  document.getElementById('main1').textContent = '2023年は伊勢志摩旅行から始まり、卒業前にもいちごのアフタヌーンティーでお祝いしてくれたり、星の王子ミュージアムに行ったり。社会人になってからも、お互い忙しいはずなのに、休日に色んな場所にゆいりと一緒に行けて楽しかったよ！大学時代と変わらず、ゆいりと一緒にいる時間がとっても心地よくて、次の約束が出来るとウキウキしちゃう😆(仙台もとっても楽しみ！)';
+  document.getElementById('main2').textContent = 'あとね、ゆいりと同じSE職、同じ職種だから話せることあって嬉しいよ！私も早く基本情報取らなきゃ〜';
+  document.getElementById('main3').textContent = '来年も沢山楽しい思い出つくろうね！仙台、ディズニー、そしてパリ！全部誘ってくれてありがとう！既にこんなにゆいりと遊べる予定あるの嬉しすぎる😆✨';
 }
 else if(name == 'えいがかん'){
   document.getElementById('name').textContent = 'Kino';
-  document.getElementById('main').textContent = '2023年、一番お喋りしたのはきのちゃんなんじゃないかなぁ、と思うくらい、今までの大学生活で話せなかった時間を取り戻す勢いで一緒に遊んで沢山お喋りしてもらいました。ありがとう！「何か新しいこと始めたい」って春からずっと話してて、津田津田しい私たちは、津田津田しいラジオまで始めちゃって！どんな時でも話したいことや自分の理想像があるきのちゃんを尊敬してます。毎週きのちゃんが書いてくれる概要欄が楽しみなの〜！一番最初に読める特権！私もきのちゃんみたいに、温かくて、心にすーっと寄り添ってくれるような文章が書けたらなぁといつも羨ましく思っているよ！あとね、きのちゃんって普段はチャキチャキしてて、ファッションもメイクもエレガントでかっこいいイメージだけど、ふとした瞬間にニフラーみたいな顔でニマァって笑ってる顔が、私はとっても大好き笑　今年も私と沢山の時間を過ごしてくれてありがとう。来年も社会の荒波に負けず、素敵な夢みて、沢山楽しい思い出作ろうね！'
+  document.getElementById('main1').textContent = '2023年、一番お喋りしたのはきのちゃんなんじゃないかなぁ、と思うくらい、今までの大学生活で話せなかった時間を取り戻す勢いで一緒に遊んで沢山お喋りしてもらいました。ありがとう！「何か新しいこと始めたい」って春からずっと話してた私たちは、なんとも津田津田しいラジオまで始めちゃって！どんな時でも話したいことや自分の理想の形があるきのちゃんを尊敬してます。毎週きのちゃんが書いてくれる概要欄が楽しみなの〜！一番最初に読める特権！私もきのちゃんみたいに、温かくて、心にすーっと寄り添ってくれるような文章が書けたらなぁといつも羨ましく思っているよ！';
+  document.getElementById('main2').textContent = 'あとね、きのちゃんって普段はチャキチャキしてて、ファッションもメイクもエレガントでかっこいいイメージだけど、ふとした瞬間にニフラーみたいな顔でニマァって笑ってる顔が、私はとっても大好き笑';
+  document.getElementById('main3').textContent = '今年も私と沢山の時間を過ごしてくれてありがとう。来年も社会の荒波に負けず、素敵な夢みて、沢山楽しい思い出作ろうね！';
 }
 else if(name == 'パパド'){
   document.getElementById('name').textContent = 'Yukino';
-  document.getElementById('main').textContent = ''
+  document.getElementById('main1').textContent = 'パパド、ちょっと難関すぎた？笑 今年はゆきのちゃまが藤沢に行って、あんまり会えないのかなぁ、寂しいなぁ、と思っていたけど、湘南にも猿島にも一緒に行けて、神奈川を一緒に満喫(？)出来て楽しかったよー！まぐパパに連れて行ってもらったスープカレー、絶品だったねぇ。また行きたい🍛　今度藤沢にも遊びに行きたいし、あと横浜で新年会しようね！🚢 ';
+  document.getElementById('main2').textContent = 'あとね！会えてなくてもコンスタントに連絡取れてることが結構嬉しいよ！結構ね、社会人になってから知り合いとの連絡途切れがちだから、インスタにコメント入れてくれたり、ambitiousのグループにゆきのちゃまも入ってくれて嬉しい☺️';
+  document.getElementById('main3').textContent = '来年も沢山楽しい思い出つくろうね♪　(結婚式のご招待お待ちしてます😚💕)';
 }
 else if(name == 'ミラノ'){
   document.getElementById('name').textContent = 'Mana';
@@ -44,20 +52,19 @@ else if(name == 'パノラマ'){
 }
 else if(name == '1103'){
   document.getElementById('name').textContent = 'Hikari';
-  document.getElementById('main1').textContent = '年賀状代わりのクリスマスカードだよ！今年はSEらしくサイトを作ってみたのだ〜！今思えば、ひかりさんにあまり自分が作ったもの見せたことない気がしたし、いい機会と思った先輩の意地！笑　これもフロントはHTML／CSS、バックはJavaScriptで書いてるよ。先人たちの力が大きいけれど！（例のおさんぽアプリ(?)はその後どう？また話聞かせてね！）'
-  document.getElementById('main2').textContent = '山田ひかりが3年生になるなんて、おばさん信じられないよ。進路選択、卒論とまだまだ大学生活のお楽しみは沢山あるので大いに謳歌して、たまには私にもその頑張りを聞かせてください☺️ '
-  document.getElementById('main3').textContent = 'あ、あと最近インスタにあがる写真のクオリティが爆上がりしてない？iPhone15？腕の上達？笑　ウィキッドも見にいこうね〜！良いお年を！'
+  document.getElementById('main1').textContent = '年賀状代わりのクリスマスカードだよ！今年はSEらしくサイトを作ってみたのだ〜！今思えば、ひかりさんにあまり自分が作ったもの見せたことない気がしたし、いい機会と思った先輩の意地！笑　これもフロントはHTML／CSS、バックはJavaScriptで書いてるよ。先人たちの力が大きいけれど！（例のおさんぽアプリ(?)はその後どう？また話聞かせてね！）';
+  document.getElementById('main2').textContent = '山田ひかりが3年生になるなんて、おばさん信じられないよ。進路選択、卒論とまだまだ大学生活のお楽しみは沢山あるので大いに謳歌して、たまには私にもその頑張りを聞かせてください☺️ ';
+  document.getElementById('main3').textContent = 'あ、あと最近インスタにあがる写真のクオリティが爆上がりしてない？iPhone15？腕の上達？笑　ウィキッドも見にいこうね〜！良いお年を！';
 }
 else if(name == 'そねはらのぼる'){
   document.getElementById('name').textContent = 'そねっち';
-  document.getElementById('main').textContent = ''
+  document.getElementById('main1').textContent = 'バンコクまで郵便出すのも風情があって素敵だけど、せっかくSE職に就いたので、今年のクリスマスカード兼年賀状はこちらのサイトでお届けします✉️　';
+  document.getElementById('main2').textContent = 'バンコクでの生活には慣れましたか？そねゼミのグループに時々写真を送って下さって、いつの間にかタイ文字も書けるようになってるし、本当に衰えという言葉はそねっちの中にはないんだな〜とつくづく感じています！私もそねゼミ出身らしく、毎日楽しくお仕事しています！';
+  document.getElementById('main3').textContent = 'お身体に気をつけて、3月の一時帰国の際にお会いできることを楽しみにしています！';
 }
 else if(name == 'すずきたかひさ'){
-  document.getElementById('name').textContent = '鈴木せんせい';
-  document.getElementById('main').textContent = ''
-}
-else if(name == 'a'){
-  document.getElementById('name').textContent = 'test';
+  document.getElementById('name').textContent = '鈴木先生';
+  document.getElementById('main1').textContent = '';
 }
 else{
   window.location.href = './index.html';
