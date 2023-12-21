@@ -20,7 +20,7 @@ else if(name == 'あかふく'){
 }
 else if(name == 'えいがかん'){
   document.getElementById('name').textContent = 'Kino';
-  document.getElementById('main1').textContent = '2023年、一番お喋りしたのはきのちゃんなんじゃないかなぁ、と思うくらい、今までの大学生活で話せなかった時間を取り戻す勢いで一緒に遊んで沢山お喋りしてもらいました。ありがとう！「何か新しいこと始めたい」って春からずっと話してた私たちは、なんとも津田津田しいラジオまで始めちゃって！どんな時でも話したいことや自分の理想の形があるきのちゃんを尊敬してます。毎週きのちゃんが書いてくれる概要欄が楽しみなの〜！一番最初に読める特権！私もきのちゃんみたいに、温かくて、心にすーっと寄り添ってくれるような文章が書けたらなぁといつも羨ましく思っているよ！';
+  document.getElementById('main1').textContent = '2023年、一番お喋りしたのはきのちゃんなんじゃないかなぁ、と思うくらい、今までの大学生活で話せなかった時間を取り戻す勢いで一緒に遊んで沢山お喋りしてもらいました。ありがとう！どんな時でも話したいことや自分の理想の形があるきのちゃんを尊敬してます。毎週きのちゃんが書いてくれる概要欄が楽しみなの〜！一番最初に読める特権！私もきのちゃんみたいに、温かくて、心にすーっと寄り添ってくれるような文章が書けたらなぁといつも羨ましく思っているよ！';
   document.getElementById('main2').textContent = 'あとね、きのちゃんって普段はチャキチャキしてて、ファッションもメイクもエレガントでかっこいいイメージだけど、ふとした瞬間にニフラーみたいな顔でニマァって笑ってる顔が、私はとっても大好き笑';
   document.getElementById('main3').textContent = '今年も私と沢山の時間を過ごしてくれてありがとう。来年も社会の荒波に負けず、素敵な夢みて、沢山楽しい思い出作ろうね！';
 }
@@ -28,15 +28,19 @@ else if(name == 'パパド'){
   document.getElementById('name').textContent = 'Yukino';
   document.getElementById('main1').textContent = 'パパド、ちょっと難関すぎた？笑 今年はゆきのちゃまが藤沢に行って、あんまり会えないのかなぁ、寂しいなぁ、と思っていたけど、湘南にも猿島にも一緒に行けて、神奈川を一緒に満喫(？)出来て楽しかったよー！まぐパパに連れて行ってもらったスープカレー、絶品だったねぇ。また行きたい🍛　今度藤沢にも遊びに行きたいし、あと横浜で新年会しようね！🚢 ';
   document.getElementById('main2').textContent = 'あとね！会えてなくてもコンスタントに連絡取れてることが結構嬉しいよ！結構ね、社会人になってから知り合いとの連絡途切れがちだから、インスタにコメント入れてくれたり、ambitiousのグループにゆきのちゃまも入ってくれて嬉しい☺️';
-  document.getElementById('main3').textContent = '来年も沢山楽しい思い出つくろうね♪　(結婚式のご招待お待ちしてます😚💕)';
+  document.getElementById('main3').textContent = '今年1年も仲良くしてくれてありがとう！来年も沢山楽しい思い出つくろうね♪　(結婚式のご招待お待ちしてます😚💕)';
 }
 else if(name == 'ミラノ'){
   document.getElementById('name').textContent = 'Mana';
-  document.getElementById('main').textContent = ''
+  document.getElementById('main1').textContent = 'まなたん、毎日寒い日が続くけど、風邪ひいたりしてない？なんか最近ね、寒くなればなるほど、去年ヨーロッパで寒がってたまなたんのこと思い出しちゃうの笑（もうあれから１年経つの衝撃！！）　温かいもの沢山食べて、お腹冷やさないように暖かい服装してね！';
+  document.getElementById('main2').textContent = 'そねっちのタイ出発のお見送り以来会えてなくて寂しい〜〜🥲 来年はもう少し会える機会あるといいなー！お仕事忙しいと思うけど、あまり無理せず！まなたんが楽しくお仕事してくれてたら私も嬉しいよ！';
+  document.getElementById('main3').textContent = '今年１年、ありがとう。来年も仲良くしてね🫶';
 }
 else if(name == 'パエリア'){
   document.getElementById('name').textContent = 'Yumi';
-  document.getElementById('main').textContent = ''
+  document.getElementById('main1').textContent = '夏前？くらいに川崎で会えた日から、お仕事どう？私はあんなにJava頑張ったのに、まさかのローコード開発の部署！全然Javaじゃなくて、頑張った分少しショックだったんだけど、でも意外とJavaを勉強してたからシステムの構造とか用語とか分かって、最近ようやくSEらしくお仕事してるよ〜';
+  document.getElementById('main2').textContent = '川崎で食べたパエリア、美味しかったね🥘意外とSE職って周りに少ないから、あの日ゆうみと色々話して共感しあえたのすごく楽しかった〜！湘南にもみんなと一緒に来てくれてありがとね🫶';
+  document.getElementById('main3').textContent = '今年１年、お互いよく頑張ったよね！卒業してからも仲良くしてくれてありがとう。来年もまたご飯とか行きたい〜！よいお年を！'
 }
 else if(name == 'リバティ'){
   document.getElementById('name').textContent = 'Nao';
