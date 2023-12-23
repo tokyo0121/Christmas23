@@ -60,13 +60,13 @@ else if(name == '1103'){
   document.getElementById('main2').textContent = '山田ひかりが3年生になるなんて、おばさん信じられないよ。進路選択、卒論とまだまだ大学生活のお楽しみは沢山あるので大いに謳歌して、たまには私にもその頑張りを聞かせてください☺️ ';
   document.getElementById('main3').textContent = 'あ、あと最近インスタにあがる写真のクオリティが爆上がりしてない？iPhone15？腕の上達？笑　ウィキッドも見にいこうね〜！良いお年を！';
 }
-else if(name == 'そねはらのぼる'){
+else if(name == 'バンコク'){
   document.getElementById('name').textContent = 'そねっち';
   document.getElementById('main1').textContent = 'バンコクまで郵便出すのも風情があって素敵だけど、せっかくSE職に就いたので、今年のクリスマスカード兼年賀状はこちらのサイトでお届けします✉️　';
-  document.getElementById('main2').textContent = 'バンコクでの生活には慣れましたか？そねゼミのグループに時々写真を送って下さって、いつの間にかタイ文字も書けるようになってるし、本当に衰えという言葉はそねっちの中にはないんだな〜とつくづく感じています！私もそねゼミ出身らしく、毎日楽しくお仕事しています！';
+  document.getElementById('main2').textContent = 'バンコクでの生活には慣れましたか？そねゼミのグループに時々写真を送って下さって、いつの間にかタイ文字も書けるようになってるし、本当に衰えという言葉はそねっちの中にはないんだな〜とつくづく感じています！私もそねゼミ出身らしく、毎日楽しく、成長が止まらぬよう頑張ってお仕事しています！';
   document.getElementById('main3').textContent = 'お身体に気をつけて、3月の一時帰国の際にお会いできることを楽しみにしています！';
 }
-else if(name == 'すずきたかひさ'){
+else if(name == 'インディゴ'){
   document.getElementById('name').textContent = '鈴木先生';
   document.getElementById('main1').textContent = '';
 }
