@@ -64,11 +64,13 @@ else if(name == 'バンコク'){
   document.getElementById('name').textContent = 'そねっち';
   document.getElementById('main1').textContent = 'バンコクまで郵便出すのも風情があって素敵だけど、せっかくSE職に就いたので、今年のクリスマスカード兼年賀状はこちらのサイトでお届けします✉️　';
   document.getElementById('main2').textContent = 'バンコクでの生活には慣れましたか？そねゼミのグループに時々写真を送って下さって、いつの間にかタイ文字も書けるようになってるし、本当に衰えという言葉はそねっちの中にはないんだな〜とつくづく感じています！私もそねゼミ出身らしく、毎日楽しく、成長が止まらぬよう頑張ってお仕事しています！';
-  document.getElementById('main3').textContent = 'お身体に気をつけて、3月の一時帰国の際にお会いできることを楽しみにしています！';
+  document.getElementById('main3').textContent = 'お身体に気をつけて、3月の一時帰国の際にお会いできることを楽しみにしています！よいお年を！';
 }
 else if(name == 'インディゴ'){
   document.getElementById('name').textContent = '鈴木先生';
-  document.getElementById('main1').textContent = '';
+  document.getElementById('main1').textContent = '社会人になったのに、いつ学校に会いに行っても学生時代と変わらず、沢山話を聞いてくださってありがとうございます！梅五輪のことも、WUSICのことも、卒業したのに首を突っ込みすぎた気がしますが、時々後輩のみんなが楽しそうに活動できている話を聞くと私も嬉しくなります。';
+  document.getElementById('main2').textContent = '最近、仕事が落ち着かず、中々千駄ヶ谷に行けてない、というか先生に会えていないのが結構寂しいです。が、年始に会えそうなので、とても楽しみにしていますー！';
+  document.getElementById('main3').textContent = 'また千駄ヶ谷で一緒にランチしましょう〜！今年１年、お世話になりました。来年もよろしくお願いします！よいお年を！';
 }
 else{
   window.location.href = './index.html';
