@@ -24,10 +24,6 @@ html, body{
   margin: 0;
 }
 
-#wrapper{
-  padding: 20% 0;
-}
-
 #container{
   padding: 15% 10%;
   background-color: rgba(2,14,52,0.3);

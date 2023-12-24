@@ -72,6 +72,12 @@ else if(name == 'インディゴ'){
   document.getElementById('main2').textContent = '最近、仕事が落ち着かず、中々千駄ヶ谷に行けてない、というか先生に会えていないのが結構寂しいです。が、年始に会えそうなので、とても楽しみにしていますー！';
   document.getElementById('main3').textContent = 'また千駄ヶ谷で一緒にランチしましょう〜！今年１年、お世話になりました。来年もよろしくお願いします！よいお年を！';
 }
+else if(name == 'あさかい'){
+  document.getElementById('name').textContent = '中島Pの皆さま';
+  document.getElementById('main1').textContent = '中島さん、村上さんをはじめ、８月に配属されてから、中島Pの皆さまには大変お世話になりました。業務でご一緒した方、オフィスでお会いした方、何度も差し伸べられた優しい手に「なんていい職場なんだ！」と日頃思っています。';
+  document.getElementById('main2').textContent = '未熟者ですが、早く皆さんに追いつけるよう頑張ります。';
+  document.getElementById('main3').textContent = '少し早いですが、皆さまよいお年をお迎えください！来年もどうぞよろしくお願いいたします。';
+}
 else{
   window.location.href = './index.html';
 }
